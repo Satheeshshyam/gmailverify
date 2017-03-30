@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37492" started-at="2017-03-30T03:35:57Z" finished-at="2017-03-30T03:36:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37492" started-at="2017-03-30T03:35:57Z" finished-at="2017-03-30T03:36:35Z">
+      <class name="test.tc_01">
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:test.tc_01@2b98378d]" name="PreCondition" is-config="true" duration-ms="22812" started-at="2017-03-30T09:05:57Z" finished-at="2017-03-30T09:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="VerifyInvalidLogin_TC02()[pri:0, instance:test.tc_01@2b98378d]" name="VerifyInvalidLogin_TC02" duration-ms="14631" started-at="2017-03-30T09:06:20Z" finished-at="2017-03-30T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin_TC02 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.tc_01@2b98378d]" name="afterMethod" is-config="true" duration-ms="22" started-at="2017-03-30T09:06:35Z" finished-at="2017-03-30T09:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.tc_01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
