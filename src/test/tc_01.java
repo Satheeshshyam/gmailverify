@@ -45,7 +45,8 @@ public class tc_01
 		login.getusername().sendKeys(un);
 		login.getnext().click();
 		login.getpassword().sendKeys(pw);
-		login.getsignin().click();
+		login.pasnext().click();
+		//login.getsignin().click();
 		String actual = "Wrong password. Try again.";
 		Thread.sleep(10000);
 		String expected = login.getErrorMessage().getText();
